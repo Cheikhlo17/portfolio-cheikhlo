@@ -1,0 +1,54 @@
+.home {
+  padding: 80px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  color: #222;
+}
+
+body.dark .home {
+  color: #eee;
+}
+
+.home-title {
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 10px;
+  color: #ff0080;
+  text-shadow: 0 0 10px #ff0080aa;
+}
+
+.home-subtitle {
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin-bottom: 40px;
+  color: #555;
+}
+
+body.dark .home-subtitle {
+  color: #ccc;
+}
+
+.home-typing {
+  font-size: 1.15rem;
+  line-height: 1.6;
+  white-space: pre-wrap;
+  max-width: 700px;
+  margin: 0 auto;
+  min-height: 130px; /* pour garder la place pendant le typing */
+}
+
+.cursor {
+  display: inline-block;
+  animation: blink 1.2s infinite;
+  color: #ff0080;
+}
+
+@keyframes blink {
+  0%, 50% {
+    opacity: 1;
+  }
+  51%, 100% {
+    opacity: 0;
+  }
+}
