@@ -36,18 +36,18 @@ const About = () => {
             </ul>
 
             <div className="about-links">
-              <a href="#" download className="cv-btn">
+              <a href="/cv_cheikh_lo.pdf" download className="cv-btn">
                 📄 Télécharger mon CV
               </a>
               <a
-                  href="https://github.com/cheikhlo"
+                  href="https://github.com/cheikhlo17"
                   target="_blank"
                   rel="noopener noreferrer"
               >
                 <FaGithub className="icon" />
               </a>
               <a
-                  href="https://linkedin.com/in/cheikhlo"
+                  href="https://linkedin.com/in/cheikhlo17"
                   target="_blank"
                   rel="noopener noreferrer"
               >
